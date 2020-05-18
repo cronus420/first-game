@@ -1,0 +1,23 @@
+void playerscore()
+{
+int p1=0;
+int p2=0;
+
+    if ( ball_x<0  )
+	{ 
+
+		p1+=100;
+
+	}
+
+    else if(   ball_x>1024 )
+
+	{ 
+
+		p2+=100;
+
+	}
+
+
+}
+					
